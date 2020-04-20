@@ -293,3 +293,7 @@ input{
     button{
 cursor:  pointer !important;
       }
+      #video,#img{
+          display: none;
+          color: $main;
+      }

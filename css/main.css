@@ -295,3 +295,8 @@ a {
 button {
   cursor: pointer !important;
 }
+
+#video, #img {
+  display: none;
+  color: #47B5AC;
+}

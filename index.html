@@ -92,15 +92,29 @@
         </div>
         <div class="row my-2">
             <div class="col-2 d-flex  align-items-center">
-                <label class="pt-3 Screen">Screen video recorded or Screenshot of the issue  </label>
+                <label class="pt-3 Screen"> Screenshot of the issue  </label>
             </div>
             <div class="col-6 d-flex align-items-center pt-3">
           
-                <div class="upload-btn-wrapper box-shadow border-5">
-                    <button class="btn-file">Upload a file</button>
-                    <input type="file" name="myfile" id="myfile" multiple="multiple" />
-                    <span id="val"></span>
-                  </div>
+                <div class="upload-btn-wrapper box-shadow border-5 px-3 bg-white">
+                    <button class="btn-file px-2">Upload a Screenshot</button>
+                    <input type="file" class="px-2" name="myfile" id="myfile" multiple="multiple" accept=".jpg,.jpeg.,.gif,.png" />
+                    <i class="fas fa-check px-1" id="img"></i>
+  
+                </div>
+            </div>
+        </div>
+        <div class="row my-2">
+            <div class="col-2 d-flex  align-items-center">
+                <label class="pt-3 Screen"> video recorded  of the issue  </label>
+            </div>
+            <div class="col-6 d-flex align-items-center pt-3">
+          
+                <div class="upload-btn-wrapper box-shadow bg-white border-5">
+                    <button class="btn-file">Upload a video recorded</button>
+                    <input type="file" name="myfile" id="myfile2" multiple="multiple" accept=".mov,.mp4"/>
+                    <i class="fas fa-check px-1" id="video"></i>
+                                  </div>
             </div>
         </div>
         <div class="row">
