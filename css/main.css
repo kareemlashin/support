@@ -19,7 +19,7 @@ body {
 
 .App .selection label, .system .selection label {
   display: inline-block;
-  color: #47B5AC !important;
+  color: #309EAC !important;
   padding: 0.6em;
   cursor: pointer;
   width: 100%;
@@ -52,7 +52,7 @@ label {
 }
 
 .App .selection input[type=radio]:checked ~ label, .system .selection input[type=radio]:checked ~ label {
-  background-color: #47B5AC;
+  background-color: #309EAC;
   text-align: center;
   color: #fff !important;
   border-radius: 5px;
@@ -74,7 +74,7 @@ input {
   margin-top: -30px !important;
   position: relative;
   z-index: 2;
-  color: #47B5AC !important;
+  color: #309EAC !important;
   font-size: 17px;
 }
 
@@ -100,7 +100,7 @@ input {
 }
 
 .btn-file {
-  color: #47B5AC;
+  color: #309EAC;
   background-color: #fff;
   padding: 8px 15px;
   border-radius: 8px;
@@ -130,7 +130,7 @@ textarea {
 }
 
 .left {
-  color: #47B5AC !important;
+  color: #309EAC !important;
   position: absolute;
 }
 
@@ -147,7 +147,7 @@ textarea {
 
 .w-btn {
   width: 20%;
-  background-color: #47B5AC;
+  background-color: #309EAC;
   color: #fff;
 }
 
@@ -195,7 +195,7 @@ textarea {
   }
   .w-btn {
     width: 40%;
-    background-color: #47B5AC;
+    background-color: #309EAC;
     color: #fff;
   }
   textarea {
@@ -315,13 +315,12 @@ button {
 .inputGroup {
   display: block;
   position: relative;
-  height: 80%;
 }
 
 .inputGroup label {
   width: 100%;
   display: block;
-  color: #47B5AC;
+  color: #309EAC;
   cursor: pointer;
   position: relative;
   z-index: 2;
@@ -343,7 +342,7 @@ button {
   height: 10px;
   border-radius: 50%;
   content: '';
-  background-color: #47B5AC;
+  background-color: #309EAC;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -384,8 +383,8 @@ button {
 }
 
 .inputGroup input:checked ~ label:after {
-  background-color: #fff;
-  border-color: #fff;
+  background-color: #309EAC;
+  border: 5px solid #fff;
 }
 
 .inputGroup input {
@@ -410,7 +409,7 @@ button {
 
 #video, #img, #img3, #video3 {
   display: none;
-  color: #47B5AC;
+  color: #309EAC;
 }
 
 .pa {

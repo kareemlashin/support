@@ -1,4 +1,4 @@
-$main:#47B5AC;
+$main:#309EAC;
 $secondColor:#F8FAFA;
 *{font-family: 'Cairo', sans-serif;
 }
@@ -314,12 +314,14 @@ input{
     button{
 cursor:  pointer !important;
       }
- 
-      
+
+
+   
+
 .inputGroup {
+
     display: block;
     position: relative;
-    height: 80%;
     label {
         width: 100%;
         display: block;
@@ -339,7 +341,7 @@ cursor:  pointer !important;
         -ms-border-radius: 5px;
         -o-border-radius: 5px;
         &:before 
-{
+            {
             width: 10px;
             height: 10px;
             border-radius: 50%;
@@ -356,22 +358,25 @@ cursor:  pointer !important;
         }
         &:after {
      
-    width: 18px;
-    height: 18px;
-    content: '';
-    border: 2px solid #47B5AC;
-    background-color: #fff;
-    border-radius: 50%;
-    z-index: 2;
-    position: absolute;
-    left: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    transition: all 200ms ease-in;
+            width: 18px;
+            height: 18px;
+            content: '';
+            border: 2px solid #47B5AC;
+            background-color: #fff;
+            border-radius: 50%;
+            z-index: 2;
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            transition: all 200ms ease-in;
         }
     }
+
+
     input:checked~label {
+  
         color: #fff;
         &:before {
             transform: translate(-50%, -50%) scale3d(70, 70, 1);
@@ -380,11 +385,12 @@ cursor:  pointer !important;
             -moz-transform: translate(-50%, -50%) scale3d(70, 70, 1);
             -ms-transform: translate(-50%, -50%) scale3d(70, 70, 1);
             -o-transform: translate(-50%, -50%) scale3d(70, 70, 1);
-}
+                }
         &:after {
-            background-color: #fff;
-            border-color: #fff;
+            background-color: $main;
+            border:5px solid #fff;
         }
+
     }
     input {
         width: 20px;
@@ -398,6 +404,7 @@ cursor:  pointer !important;
         cursor: pointer;
         visibility: hidden;
         border-radius: 15px;
+
     }
 }
 
