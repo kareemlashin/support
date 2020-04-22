@@ -2,6 +2,8 @@ $('input[name="App"]').on('change', function() {
     var radioValue = $('input[name="App"]:checked').val();        
     $(".desc").hide();
     $("#"+radioValue+"-desc").show();
+    $('input[name="system"]').prop('checked', false);
+
   });
 
 
