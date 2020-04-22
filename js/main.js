@@ -24,3 +24,23 @@ $("#img-trash").on('click',function(){
     $("#img").css({display:"none"})
     $("#img-trash").css({display:"none"})
 });
+
+$("#myfile3").on('change',function(){
+    $("#img3").css({display:"inline-block"})
+$("#img-trash3").css({display:"inline-block"})
+
+});
+$("#myfile4").on('change',function(){
+$("#video3").css({display:"inline-block"})
+$("#video-trash3").css({display:"inline-block"})
+});
+$("#video-trash3").on('click',function(){
+$("#myfile3").val('');
+$("#video3").css({display:"none"})
+$("#video-trash3").css({display:"none"})
+});
+$("#img-trash3").on('click',function(){
+$("#myfile3").val('');
+$("#img3").css({display:"none"})
+$("#img-trash3").css({display:"none"})
+});

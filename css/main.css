@@ -238,7 +238,7 @@ a {
   text-decoration: none !important;
 }
 
-[dir='rtl'] #img-trash {
+[dir='rtl'] #img-trash, [dir='rtl'] #img-trash3 {
   right: 9px;
 }
 
@@ -271,7 +271,7 @@ a {
   text-align: right;
 }
 
-[dir='ltr'] #img-trash {
+[dir='ltr'] #img-trash, [dir='ltr'] #img-trash3 {
   left: 9px;
 }
 
@@ -402,13 +402,13 @@ button {
   border-radius: 15px;
 }
 
-#video-trash, #img-trash {
+#video-trash, #img-trash, #img-trash3, #video-trash3 {
   display: none;
   color: #F35B67;
   cursor: pointer;
 }
 
-#video, #img {
+#video, #img, #img3, #video3 {
   display: none;
   color: #47B5AC;
 }
@@ -422,6 +422,6 @@ button {
   display: none;
 }
 
-#img-trash {
+#img-trash, #img-trash3 {
   position: relative;
 }
