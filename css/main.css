@@ -425,3 +425,7 @@ button {
 #img-trash, #img-trash3 {
   position: relative;
 }
+
+.req {
+  color: #F35B67;
+}

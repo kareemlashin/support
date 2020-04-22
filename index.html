@@ -28,7 +28,7 @@
             
         <div class="row">
             <div class="col-2 d-flex  align-items-center">
-            <label class="pt-3">App Name  </label>
+            <label class="pt-3">App Name <span class="px-1 req">*</span> </label>
             </div>
             <div class="col-3">
                 <div class="App pt-3 ">
@@ -80,6 +80,35 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+
+        <div id="Doctor-desc" class="desc">
+
+            <div class="row my-2" id="Operating system">
+                <div class="col-2 d-flex  align-items-center">
+                    <label class="pt-3">Operating system  </label>
+                </div>
+                <div class="col-3">
+                    <div class="system pt-3 ">
+                        <div class="inputGroup">
+                            <input id="Android / IOS-d" name="system" type="radio">
+                            <label for="Android / IOS-d" class="pt-3 tall">Android / IOS</label>
+                        </div>
+                
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="system pt-3 ">
+                        <div class="inputGroup">
+                            <input id="Dashboard (Computer / Mobile)-d" name="system" type="radio">
+                            <label for="Dashboard (Computer / Mobile)-d" class="pt-3 tall">Dashboard (Computer / Mobile)</label>
+                        </div>
+                
+                    </div>
+                </div>
+    
+            </div>
         </div>
         <div class="row my-2">
             <div class="col-2 d-flex  align-items-center">
@@ -153,105 +182,7 @@
             <button class="w-btn py-1 rounded-pill mb-3">send</button>
         </div>
 
-    </div>
-    <div id="Doctor-desc" class="desc">
 
-        <div class="row my-2" id="Operating system">
-            <div class="col-2 d-flex  align-items-center">
-                <label class="pt-3">Operating system  </label>
-            </div>
-            <div class="col-3">
-                <div class="system pt-3 ">
-                    <div class="inputGroup">
-                        <input id="Android / IOS-d" name="system" type="radio">
-                        <label for="Android / IOS-d" class="pt-3 tall">Android / IOS</label>
-                    </div>
-            
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="system pt-3 ">
-                    <div class="inputGroup">
-                        <input id="Dashboard (Computer / Mobile)-d" name="system" type="radio">
-                        <label for="Dashboard (Computer / Mobile)-d" class="pt-3 tall">Dashboard (Computer / Mobile)</label>
-                    </div>
-            
-                </div>
-            </div>
-
-        </div>
-        <div class="row my-2">
-            <div class="col-2 d-flex  align-items-center">
-                <label class="pt-3">phone number   </label>
-            </div>
-            <div class="col-8 d-flex align-items-center pt-3">
-                <div class="w-50-phone">
-                    <input placeholder="phone number " 
-                    class="w-100" type="tel" name="tel">
-                <span  class="fas fa-mobile-alt field-icon"></span>
-                </div>
-            </div>
-        </div>
-        <div class="row my-2">
-            <div class="col-2 d-flex  align-items-center">
-                <label class="pt-3 Screen"> Screenshot of the issue  </label>
-            </div>
-            <div class="col-6 d-flex align-items-center pt-3">
-          
-                <div class="upload-btn-wrapper box-shadow border-5 px-3 bg-white">
-                    <button class="btn-file ">Upload a Screenshot</button>
-                    <input type="file" class="" name="myfile3" id="myfile3" multiple="multiple" accept=".jpg,.jpeg.,.gif,.png" />
-                    <i class="fas fa-check " id="img3"></i>
-  
-                </div>
-                <i class="fas fa-trash-alt " id="img-trash3"></i>
-
-            </div>
-        </div>
-        <div class="row my-2">
-            <div class="col-2 d-flex  align-items-center">
-                <label class="pt-3 Screen"> video recorded  of the issue   </label>
-            </div>
-            <div class="col-6 d-flex align-items-center pt-3">
-          
-                <div class="upload-btn-wrapper box-shadow border-5 pa bg-white">
-                    <button class="btn-file ">Upload a video recorded</button>
-                    <input type="file" name="myfile4" id="myfile4" multiple="multiple" accept=".mov,.mp4"/>
-                    <i class="fas fa-check " id="video3"></i>  
-                </div>
-                <i class="fas fa-trash-alt px-2" id="video-trash3"></i>
-
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-2 ">
-                <label class="pt-3 ">Issue description  </label>
-            </div>
-            <div class="col-8 d-flex align-items-center pt-3">
-                <textarea name="" id="" class="w-100 box-shadow border-5" rows="6"></textarea>
-            </div>
-        </div>
-      
-        <div class="row my-2">
-            <div class="col-2 d-flex  align-items-center">
-                <label class="pt-3 Screen">Follow-up phone number   </label>
-            </div>
-            <div class="col-8 d-flex align-items-center pt-3">
-                <div class="w-50-phone">
-                    <input placeholder="phone number " 
-                    class="w-100" type="tel" name="tel">
-                <span  class="fas fa-mobile-alt field-icon"></span>
-                </div>
-                
-            </div>
-        </div>
-        <p class="pb-2 "> (The issue reporter phone number)
-        </p>
-        <div class="text-center mb-2">
-            <button class="w-btn py-1 rounded-pill mb-3">send</button>
-        </div>
-    </div>
     
     </div>
     </section>
