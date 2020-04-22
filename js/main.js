@@ -1,3 +1,9 @@
+$('input[name="App"]').on('change', function() {
+    var radioValue = $('input[name="App"]:checked').val();        
+    $(".desc").hide();
+    $("#"+radioValue+"-desc").show();
+  });
+
 
 $("#myfile").on('change',function(){
         $("#img").css({display:"inline-block"})
