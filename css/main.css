@@ -238,6 +238,14 @@ a {
   text-decoration: none !important;
 }
 
+[dir='rtl'] #img-trash {
+  right: 9px;
+}
+
+[dir='rtl'] .inputGroup label {
+  padding: 20px 35px 20px 0px;
+}
+
 [dir='rtl'] button {
   text-align: center !important;
 }
@@ -261,6 +269,14 @@ a {
 
 [dir='rtl'] * {
   text-align: right;
+}
+
+[dir='ltr'] #img-trash {
+  left: 9px;
+}
+
+[dir='ltr'] .inputGroup label {
+  padding: 20px 0px 20px 44px;
 }
 
 [dir='ltr'] body {
@@ -305,7 +321,6 @@ button {
 .inputGroup label {
   width: 100%;
   display: block;
-  padding: 20px 0px 20px 44px;
   color: #47B5AC;
   cursor: pointer;
   position: relative;
@@ -405,4 +420,8 @@ button {
 
 .desc {
   display: none;
+}
+
+#img-trash {
+  position: relative;
 }

@@ -238,6 +238,16 @@ input{
       text-decoration: none !important;
     }
     [dir='rtl']    {
+        #img-trash
+{
+    right: 9px;
+}
+        .inputGroup {
+            label {
+           
+                padding: 20px 35px 20px 0px;             
+            }
+        }
         button{
             text-align: center !important;
 
@@ -263,6 +273,17 @@ input{
         }
     }
     [dir='ltr']    {
+        #img-trash
+{
+    left: 9px;
+}
+        .inputGroup {
+            label {
+           
+                padding: 20px 0px 20px 44px;             
+            }
+        }
+        
         body{
             direction: ltr;
         }
@@ -302,7 +323,6 @@ cursor:  pointer !important;
     label {
         width: 100%;
         display: block;
-        padding: 20px 0px 20px 44px;
         color: $main;
         cursor: pointer;
         position: relative;
@@ -400,4 +420,8 @@ cursor:  pointer !important;
 .desc
 {
     display: none;
+}
+#img-trash
+{
+    position: relative;
 }
